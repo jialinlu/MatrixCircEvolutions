@@ -1,0 +1,113 @@
+Results of five paralell runs of NSGA-II without PSADE.
+
+evol_w01_output.txt 
+data_2018_04_04_21-33
+:::GENERATION 4000 - BEST ONE::: [ 0.17663741  0.2461189   0.00546675] ::YEAH!:: Time: 91h 5m 16.08s
+	 - vdd_sweep at 3 loads: 1.49348193407 1.47431617975 0.00154876755551 V
+	 - vdd_sweep at 3 temps: 1.56217294931 1.49348193407 1.39205360413 V
+	 - power@10MOhm: 0.00546675015357 W
+	 - PSRR@100Hz: 64.1796604292 dB
+	 - Vout@2.5Vvdd: None V
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+	 - Unique of scores: 492 (/ 492 ), of topologies: 84 (/ 492 ), 
+	          of values: 469 (/ 492 ), of individuals 492 (/ 492 ) in 1st front.
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+	
+evol_w02_output.txt
+data_2018_04_04_21-37
+:::GENERATION 4000 - BEST ONE::: [ 0.0123145  0.0040921  0.0001569] ::YEAH!:: Time: 93h 15m 22.41s
+	 - vdd_sweep at 3 loads: 1.49243789911 9.80552686087e-05 9.80641004844e-07 V
+	 - vdd_sweep at 3 temps: 1.50125169754 1.49243789911 1.4964993 V
+	 - power@10MOhm: 0.000156901764967 W
+	 - PSRR@100Hz: 53.5384359747 dB
+	 - Vout@2.5Vvdd: None V
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+	 - Unique of scores: 448 (/ 448 ), of topologies: 79 (/ 448 ), 
+	          of values: 427 (/ 448 ), of individuals 448 (/ 448 ) in 1st front.
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+	
+evol_w03_output.txt
+data_2018_04_04_21-40
+:::GENERATION 3815 - BEST ONE::: [ 0.04802328  0.03531992  0.00027639] ::YEAH!:: Time: 93h 6m 57.29s
+	 - vdd_sweep at 3 loads: 1.48532313108 0.00326518865768 3.26516037603e-05 V
+	 - vdd_sweep at 3 temps: 1.53334343433 1.48532313108 1.50000298023 V
+	 - power@10MOhm: 0.000276389600913 W
+	 - PSRR@100Hz: -0.267226015721 dB
+	 - Vout@2.5Vvdd: None V
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+	 - Unique of scores: 438 (/ 438 ), of topologies: 99 (/ 438 ), 
+	          of values: 416 (/ 438 ), of individuals 438 (/ 438 ) in 1st front.
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+evol_w04_output.txt
+data_2018_04_04_21-42
+:::GENERATION 4000 - BEST ONE::: [ 0.08114576  0.11012173  0.00558791] ::YEAH!:: Time: 95h 31m 46.21s
+	 - vdd_sweep at 3 loads: 1.49943608046 1.47152143717 0.00369417353068 V
+	 - vdd_sweep at 3 temps: 1.50439834595 1.49943608046 1.42381650209 V
+	 - power@10MOhm: 0.00558791056392 W
+	 - PSRR@100Hz: 34.9030356655 dB
+	 - Vout@2.5Vvdd: None V
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+	 - Unique of scores: 462 (/ 462 ), of topologies: 89 (/ 462 ), 
+	          of values: 432 (/ 462 ), of individuals 462 (/ 462 ) in 1st front.
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+evol_w05_output.txt
+data_2018_04_04_21-45
+:::GENERATION 4000 - BEST ONE::: [ 0.04169637  0.0536139   0.0055921 ] ::YEAH!:: Time: 108h 0m 31.41s
+	 - vdd_sweep at 3 loads: 1.49912655354 0.0025436419528 2.54426722677e-05 V
+	 - vdd_sweep at 3 temps: 1.5316209197 1.49912655354 1.50920200348 V
+	 - power@10MOhm: 0.0055920954037 W
+	 - PSRR@100Hz: 31.9905625537 dB
+	 - Vout@2.5Vvdd: None V
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+	 - Unique of scores: 443 (/ 443 ), of topologies: 49 (/ 443 ), 
+	          of values: 432 (/ 443 ), of individuals 443 (/ 443 ) in 1st front.
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+#----------------------------------------------------------#
+#------------------The best voltage refence----------------#
+#----------------------------------------------------------#
+	
+../_MAIN_data/data_2018_04_04_21-45
+
+:::GENERATION 4000 - BEST ONE::: [ 0.18939579  0.0142163   0.00186608] ::YEAH!:: Time: 423297h 56m 35.08s
+	 - vdd_sweep at 3 loads: 1.48465889692 1.53501594014e-06 1.535216132e-08 V
+	 - vdd_sweep at 3 temps: 1.53566813469 1.48465889692 1.36161345243 V
+	 - power@10MOhm: 0.00186607663636 W
+	 - PSRR@100Hz: 68.4814308114 dB
+	 - Vout@2.5Vvdd: 1.48178398609 V
+	 - VoutTsense@11Vvdd: -0.0012432209083 V/oC
+	- - - - - - - - - - - - - - - - - - - - - - - - - - 
+	
+	
+*g_1234_i_1234_subckt.cir 
+.SUBCKT HOT_CIRCUIT 2 28 3 vsupp vsupn 
+#R_0 1 2 94569.7042149 
+*R_2 3 3 4786003.90052 
+#x_4 2 2 7 par3pnp 
+*x_7 2 2 2 par3pnp 
+*q_10 2 2 2 BC308B 
+#xmn_13 14 14 2 0 submodn w=2.69531420894e-07 l=2.84493828712e-06 m=1 
+#xmn_16 17 3 1 0 submodn w=5.62643196646e-06 l=2.5972722024e-07 m=1 
+#xmn_19 3 3 14 0 submodn w=2.39522191933e-05 l=2.49464572401e-07 m=1 
+#xmn_22 23 3 17 0 submodn w=9.47189144413e-05 l=3.20236118445e-07 m=1 
+#xmp_25 2 2 28 vdd submodp w=2.1574867072e-06 l=3.66745611268e-06 m=1 
+#xmp_28 23 23 28 vdd submodp w=5.17762084718e-05 l=1.76854752919e-06 m=1 
+#xmp_31 3 23 34 vdd submodp w=9.93382504472e-05 l=1.89657483446e-07 m=1 
+*xmp_34 23 23 23 vdd submodp w=2.80190311935e-05 l=5.27569340482e-07 m=1 
+#xmp_37 34 23 28 vdd submodp w=3.46744021546e-05 l=3.99923671553e-06 m=1 
+xmp_40 41 23 34 vdd submodp w=3.58780531207e-05 l=2.47721426019e-06 m=1 
+
+*Convergence-aid resistors:
+R_43 1 0 1e9 
+R_44 2 0 1e9 
+R_45 3 0 1e9 
+R_49 7 0 1e9 
+R_83 41 0 1e9 
+R_76 34 0 1e9 
+R_56 14 0 1e9 
+R_59 17 0 1e9 
+R_65 23 0 1e9 
+R_70 28 0 1e9 
+.ends
