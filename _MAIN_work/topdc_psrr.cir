@@ -1,0 +1,26 @@
+* wrapping circuit for Voltage reference circuit evolution
+* Ziga Rojec, EDA, FE, UL, 2016
+
+.include 'models.inc'
+.include 'mosmm.inc'
+.lib 'cmos180n.lib' tm
+*.include 'g_0_i_0_subckt.cir'
+
+xcirc 0 vdd vout vsupp vsupn HOT_CIRCUIT
+
+*****Power supply*****
+.global vdd
+*vdd (vdd 0) dc=0 ac=1 *sin=(0 2 100)
+.PARAM frequ = 100
+.PARAM vdc = 5
+.PARAM vac = 1
+vdd (vdd 0) sin (vdc vac frequ) ac 1V
+
+******Refrence Current*****
+*iref (vdd ibias) dc=iref
+
+*****Loads*****
+.param rl=1000k
+rl (vout 0) r=rl
+
+.end

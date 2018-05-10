@@ -1,0 +1,29 @@
+* test on-top circuit (ACTIVE FILTER)
+
+.global vsupp vsupn
+
+.include models.inc
+*.include 'mosmm.inc'
+*.include g_0_i_4_subckt.cir
+
+*subckt	GND vin vout 
+xcirc 0 vin vout vsupp vsupn HOT_CIRCUIT
+
+*****Power supply*****
+vccc vsupp 0 dc=15
+veee vsupn 0 dc=-15
+
+*****Signal in*****
+.PARAM frequ = 100
+vd vin 1 sin (0 2 frequ) ac 1V
+
+*resistor that serves as switch, 
+*when measurement of input resistance occurs
+.PARAM rstopin = 0.0001
+rstop 1 0 rstopin
+
+
+*****Loads*****
+rload1 (vout 0) r=1000k
+
+.end

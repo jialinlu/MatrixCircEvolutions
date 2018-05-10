@@ -1,0 +1,32 @@
+* test on-top circuit (ACTIVE FILTER)
+* Wrapper circuit for output impedance measurement
+
+.global vsupp vsupn
+
+.include models.inc
+*.include 'mosmm.inc'
+*.include g_0_i_4_subckt.cir
+
+*subckt	GND vin vout 
+xcirc 0 vin vout vsupp vsupn HOT_CIRCUIT
+
+*****Power supply*****
+vccc vsupp 0 dc=15
+veee vsupn 0 dc=-15
+
+*****Signal in***** (signal input at load side for this measurement)
+*none - short circuit at input side
+rin1 vin 0 r=0.001
+
+.PARAM rstopin = 0.0001
+rstop 1 0 rstopin
+
+
+*****Loads*****
+*rload1 (vout 0) r=1000k
+
+.PARAM frequ = 100
+vload (vout 0) sin (0 2 frequ) ac 1V
+
+
+.end
