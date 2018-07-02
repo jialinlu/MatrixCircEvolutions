@@ -11,7 +11,7 @@ Let us imagine the typical work-flow of an analog circuit designer. He or she ha
   
 It is often a time consuming and ambiguous task, specially for un-experienced designer.
 
-This software is build to to help you with owerall analog circuit design. This software basically joins steps 2 and 3 together and makes possible for a designer to jump from the 1st step directly to the 4th step. 
+This software is build to help you with owerall analog circuit design. This software basically joins steps 2 and 3 together and makes possible for a designer to jump from the 1st step directly to the 4th step. 
 
 INPUTS-OUTPUTS
 
@@ -26,6 +26,11 @@ WARNING
 
 Do not expect miracles. They might come, but do not count on it. When designing a circuit, firstly make sure that you know, what you are doing. This sofware can indeed find novel topologies and even return an optimized solution - but only when high-level circuit definition is defined well. WYWIWYG!
 
+INSTALLATIONS
+
+Before using this software you will have to follow the installations guide for PyOPUS, a framework for analog circuit optimization in Python. 
+http://fides.fe.uni-lj.si/pyopus/quickstart.html
+
 USAGE
 
 Run main.py for single-objective search.
@@ -37,6 +42,7 @@ REFERENCES
 doi: 10.1109/SSCI.2016.7850184
 http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7850184&isnumber=7849361
 
-[2] 
+[2] Ž. Rojec, J. Olenšek, I. Fajfar, "Analog Circuit Topology Representation for Automated Synthesis and Optimization", Informacije MIDEM, Journal of Microelectronics, Electronic Components and MaterialsVol. 48, No. 1(2018), 29 – 40.
+http://www.midem-drustvo.si/Journal%20papers/MIDEM_48(2018)1p29.pdf
 
-[3]
+[3] Ž. Rojec, Á. Bűrmen and I. Fajfar, "Analog Circuit Topology Synthesis by Means of Evolutionary Computation", Engineering Applications of Artificial Intelligence. (UNDER REVIEW.)
