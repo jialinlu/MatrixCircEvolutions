@@ -45,4 +45,4 @@ http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7850184&isnumber=7849361
 [2] Ž. Rojec, J. Olenšek, I. Fajfar, "Analog Circuit Topology Representation for Automated Synthesis and Optimization", Informacije MIDEM, Journal of Microelectronics, Electronic Components and MaterialsVol. 48, No. 1(2018), 29 – 40.
 http://www.midem-drustvo.si/Journal%20papers/MIDEM_48(2018)1p29.pdf
 
-[3] Ž. Rojec, Á. Bűrmen and I. Fajfar, "Analog Circuit Topology Synthesis by Means of Evolutionary Computation", Engineering Applications of Artificial Intelligence. (UNDER REVIEW.)
+[3] Ž. Rojec, Á. Bűrmen and I. Fajfar, "Analog Circuit Topology Synthesis by Means of Evolutionary Computation", Engineering Applications of Artificial Intelligence, ISSN 0952-1976. [Print ed.], Apr. 2019, vol. 80, str. 48-65, ilustr. https://www.sciencedirect.com/science/article/pii/S0952197619300119, doi: 10.1016/j.engappai.2019.01.012.
